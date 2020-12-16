@@ -19,7 +19,7 @@ body{
     font-size: 15px;
 }
 .active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color:#E7E7E7!important;
+    background-color:#E7E7E7 !important;
 }
 .dropdown-item{
     color: #6D8092 !important;
@@ -44,7 +44,7 @@ img{
     height:100% !important;
 }
 .active, .panel:hover{
-    border-color:#0BADA6;
+    border-color: teal;
     border-style: solid;
 }
 .vizualization{
@@ -57,6 +57,16 @@ img{
     color: teal;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+.title_main {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
     padding-top: 25px;
 }
 /* Paragraph Element */
@@ -82,12 +92,12 @@ p{
 footer{
     background-color: #666666;
     border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color: #0BADA6;
+    border-top-width: 3px;
+    border-top-color: teal;
     color: white;
     min-height: 55px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     position: fixed;
     left: 0;

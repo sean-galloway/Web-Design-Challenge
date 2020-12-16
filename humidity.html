@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Index for Data Visualizations</title>
+  <title>Data Visualization</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Bootstrap CSS -->
@@ -30,7 +30,9 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Plots</a>
+              aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
               <a class="dropdown-item" href="humidity.html">Humidity</a>
@@ -48,22 +50,17 @@
       </div>
     </nav>
   </div>
+
   <!-- Content Section -->
   <div class="container">
     <div class="row">
       <div class="col-lg-7 col-md-12">
         <!-- Left box  -->
         <div class="box">
-          <h3 class="title_main">Summary: Latitude vs. X</h3>
+          <h3 class="title_main">Humidity</h3>
           <hr>
-          <img src="images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-            500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-            source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-            any trends and correlations witnessed.</p>
+          <img src="images/Fig2.png" alt="Humidity Graph">
+          <p>The plot shows a notch of overall higher humidity near the equator. The southern hemisphere shows a more even distribution of humidity as we get farther away from the equator versus the northern hemisphere; although it still tends to have more points in the higher humidity range. The northern hemisphere is showing a cluster of high humidity from 40-70 Latitude.</p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
@@ -71,6 +68,8 @@
         <div class="box">
           <h5 class="title_main">Visualizations</h5>
           <hr>
+
+
           <div class="container">
             <div class="row" style="padding-bottom: 30px;">
               <div class="col-6">
@@ -80,7 +79,7 @@
               </div>
               <div class="col-6">
                 <a href="humidity.html">
-                  <img class="panel" src="images/Fig2.png" alt="Humidity Graph">
+                  <img class="panel active" src="images/Fig2.png" alt="Humidity Graph">
                 </a>
               </div>
             </div>
