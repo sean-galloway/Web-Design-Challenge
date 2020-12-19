@@ -53,8 +53,7 @@ img {
 }
 
 .active, .thumb:hover {
-    border-color: teal;
-    border-style: solid;
+    border: 3px solid teal;
 }
 
 .vizualization {
